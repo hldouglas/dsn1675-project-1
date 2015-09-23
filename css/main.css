@@ -16,7 +16,10 @@ html {
   box-sizing: inherit;
 }
 
-html {
+h1 {
   font-family: 'Lato', sans-serif;
+}
+
+p {
   font-family: 'EB Garamond', serif;
 }
