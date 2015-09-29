@@ -44,3 +44,29 @@ p {
   font-family: 'EB Garamond', serif;
   margin: 0;
 }
+
+@media only screen and (min-width: 48em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .wrapper {
+    margin: 48px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .wrapper {
+    margin: 228px;
+  }
+
+}
