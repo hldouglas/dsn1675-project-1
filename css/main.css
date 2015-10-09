@@ -33,16 +33,55 @@ h1 {
   color: white;
   text-align: center;
   margin: 0;
-  font-size: 2.5rem
 }
 
 .wrapper {
-  margin: 21px;
+  margin: 0 21px;
+}
+
+img {
+  margin: 21px 0;
+  width: 100%;
 }
 
 p {
   font-family: 'EB Garamond', serif;
   margin: 0;
+  padding-bottom: 21px;
+}
+
+footer {
+  padding: 52.5px 0;
+  width: 100%;
+}
+
+.behance {
+  display: block;
+  width: 78.67px;
+  height: 78.67px;
+  background-image: url("..images/behance.svg");
+}
+
+.twitter {
+  display: block;
+  width: 78.67px;
+  height: 78.67px;
+  background-image: url("..images/twitter.svg");
+}
+
+.tumblr {
+  display: block;
+  width: 78.67px;
+  height: 78.67px;
+  background-image: url("..images/tumblr.svg");
+}
+
+@media only screen and (min-width: 20em) {
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
 }
 
 @media only screen and (min-width: 48em) {
