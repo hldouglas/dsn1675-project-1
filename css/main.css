@@ -51,35 +51,34 @@ p {
 }
 
 footer {
-  padding: 52.5px 0;
+  padding: 3.25px 0;
   width: 100%;
+  background-color: black;
 }
 
-.behance {
-  display: block;
-  width: 78.67px;
-  height: 78.67px;
-  background-image: url("..images/behance.svg");
+ul.share-buttons {
+  list-style: none;
+  padding: 0;
 }
 
-.twitter {
-  display: block;
-  width: 78.67px;
-  height: 78.67px;
-  background-image: url("..images/twitter.svg");
+ul.share-buttons li {
+  display: inline;
 }
 
-.tumblr {
-  display: block;
-  width: 78.67px;
-  height: 78.67px;
-  background-image: url("..images/tumblr.svg");
+ul.share-buttons img {
+  width: 53.75px;
+  margin: 0 4.79px;
 }
 
 @media only screen and (min-width: 20em) {
 
   h1 {
     font-size: 2.5rem;
+  }
+
+  ul.share-buttons img {
+    width: 78.67px;
+    margin: 0 5.68px;
   }
 
 }
@@ -92,7 +91,12 @@ footer {
   }
 
   .wrapper {
-    margin: 48px;
+    margin: 24px 48px;
+  }
+
+  ul.share-buttons img {
+    width: 96px;
+    margin: 0 -40px 0 120px;
   }
 
 }
@@ -104,8 +108,24 @@ footer {
     line-height: 1.5;
   }
 
+  main img {
+    position: static;
+    display: block;
+    width: 50%;
+  }
+
+  p {
+    clear: both;
+    width: 50%;
+  }
+
   .wrapper {
-    margin: 228px;
+    margin: 28.5px 228px;
+  }
+
+  ul.share-buttons img {
+    width: 105.67px;
+    margin: 0 -215px 0 269.34px;
   }
 
 }
